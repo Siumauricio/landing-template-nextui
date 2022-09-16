@@ -1,5 +1,4 @@
 import {Box} from '../styles/box';
-import {Content} from './content';
 
 interface LayoutProps {
    children: React.ReactNode;
