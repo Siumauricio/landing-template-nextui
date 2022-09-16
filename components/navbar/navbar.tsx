@@ -26,7 +26,6 @@ export const Nav = () => {
                background: '$background',
                borderBottom: 'none',
             },
-            'borderBottom': '1px solid $border',
          }}
       >
          <Navbar.Brand>
