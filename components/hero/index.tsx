@@ -26,21 +26,44 @@ export const Hero = () => {
             <Box
                css={{
                   pt: '$13',
-                  maxWidth: '600px',
+
                   display: 'flex',
                   flexDirection: 'column',
                   gap: '$5',
                }}
             >
-               <Text h1 css={{display: 'contents'}}>
-                  The modern landing page{' '}
-               </Text>
-               <Text h1 css={{display: 'contents'}}>
-                  for{' '}
-               </Text>
-               <Text h1 css={{display: 'contents'}} color="primary">
-                  React developers
-               </Text>
+               <Box
+                  css={{
+                     maxWidth: '600px',
+                  }}
+               >
+                  <Text
+                     h1
+                     css={{
+                        display: 'inline',
+                     }}
+                  >
+                     The modern landing page{' '}
+                  </Text>
+                  <Text
+                     h1
+                     css={{
+                        display: 'inline',
+                     }}
+                  >
+                     for{' '}
+                  </Text>
+                  <Text
+                     h1
+                     css={{
+                        display: 'inline',
+                     }}
+                     color="primary"
+                  >
+                     React developers
+                  </Text>
+               </Box>
+
                <Text
                   css={{
                      color: '$accents8',
@@ -102,8 +125,7 @@ export const Hero = () => {
             <Box
                css={{
                   '& img': {
-                     width: '100%',
-                     maxHeight: '500px',
+                     width: '775px',
                      objectFit: 'contain',
                   },
                }}
