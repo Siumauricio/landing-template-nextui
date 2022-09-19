@@ -125,8 +125,7 @@ export const Hero = () => {
             <Box
                css={{
                   '& img': {
-                     width: '100%',
-                     maxHeight: '500px',
+                     width: '775px',
                      objectFit: 'contain',
                   },
                }}
