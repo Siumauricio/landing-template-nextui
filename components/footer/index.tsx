@@ -2,7 +2,7 @@ import {Divider, Text} from '@nextui-org/react';
 import React from 'react';
 import {AcmeLogo} from '../navbar/logo';
 import {Box} from '../styles/box';
-import {Flex} from '../styles/flex';
+import { Flex } from '../styles/flex'; 
 
 export const Footer = () => {
    return (
@@ -59,7 +59,7 @@ export const Footer = () => {
                   direction={'column'}
                   align={'center'}
                >
-                  <Text h5>Resources</Text>
+                  <Text h5>Services</Text>
                   <Box as={'ul'} css={{gap: '$5', listStyle: 'none'}}>
                      <Box as={'li'}>
                         <Text span css={{color: '$accents8'}}>
@@ -179,13 +179,7 @@ export const Footer = () => {
                   },
                }}
             >
-               <Divider
-                  css={{
-                     mt: '$14',
-                     display: 'flex',
-                     justifyContent: 'center',
-                  }}
-               />
+               
                <Flex
                   //   justify={'between'}
                   align={'center'}
@@ -228,7 +222,7 @@ export const Footer = () => {
                      }}
                   >
                      <Text span css={{color: '$accents8'}}>
-                        © Copyright 2021 Acme Inc.
+                        © Copyright 2024 - Coral Consulting Services
                      </Text>
                   </Flex>
                </Flex>

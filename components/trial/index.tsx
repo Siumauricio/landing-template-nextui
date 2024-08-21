@@ -1,4 +1,4 @@
-import {Button, Divider, Text} from '@nextui-org/react';
+import {Button, Divider, Text,  Link as NextLink} from '@nextui-org/react';
 import React from 'react';
 import {Flex} from '../styles/flex';
 
@@ -14,20 +14,12 @@ export const Trial = () => {
             direction={'column'}
             align={'center'}
          >
-            <Text h3>Start your free trials</Text>
-            <Text
-               span
-               css={{
-                  color: '$accents8',
-                  pb: '$15',
-                  textAlign: 'center',
-               }}
-            >
-               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-               condimentum, nisl
-            </Text>
-
-            <Button>Button</Button>
+            <Text h2 style={{color: 'orange'}}>Get in touch with us</Text> 
+            <Text h5> start a conversation with us that drives success!</Text>
+          
+            <NextLink href="/contact">
+               <Button style={{ marginTop: 20, background: 'orange' }}>Contact us</Button> 
+            </NextLink>
          </Flex>
 
          <Divider

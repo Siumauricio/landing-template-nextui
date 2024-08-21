@@ -1,7 +1,8 @@
-import {Button, Card, Divider, Text} from '@nextui-org/react';
+import { Button, Card, Divider, Text } from '@nextui-org/react';
 import React from 'react';
-import {QuotesIcon} from '../icons/QuotesIcon';
-import {Flex} from '../styles/flex';
+import { QuotesIcon } from '../icons/QuotesIcon';
+import { Box } from '../styles/box';
+import { Flex } from '../styles/flex';
 
 export const Testimonials = () => {
    return (
@@ -14,7 +15,7 @@ export const Testimonials = () => {
                'alignItems': 'center',
                'px': '$6',
                'py': '$20',
-               'flexDirection': 'column-reverse',
+               'flexDirection': 'column',
                '@sm': {
                   justifyContent: 'space-around',
                   px: '$32',
@@ -25,171 +26,62 @@ export const Testimonials = () => {
                },
             }}
          >
-            <Flex direction="column" css={{gap: '1.5rem'}}>
-               <Card>
+            <Flex direction="column" css={{ gap: '1.5rem', flex: 1, alignItems: 'center' }}>
+               <Card css={{ width: "100%", maxWidth: "500px" }}>
                   <Card.Body>
-                     <Flex
-                        css={{
-                           py: '$10',
-                           gap: '$5',
-                        }}
-                     >
-                        <QuotesIcon />
-                        <Flex direction={'column'} css={{gap: '0.5rem'}}>
-                           <Text
-                              span
-                              css={{
-                                 maxWidth: '400px',
-                                 color: '$accents8',
-                              }}
-                           >
-                              Lorem ipsum dolor sit amet, consectetur adipiscing
-                              elit. Sed condimentum, nisl ut aliquam lacinia,
-                              nisl nisl aliquet nisl,
-                           </Text>
-                           <Text
-                              span
-                              weight={'bold'}
-                              css={{
-                                 maxWidth: '400px',
-                                 display: 'contents',
-                                 color: '$accents9',
-                              }}
-                           >
-                              Jennifer Ford{' '}
-                           </Text>
-                           <Text
-                              span
-                              css={{
-                                 display: 'contents',
-                                 color: '$accents8',
-                              }}
-                           >
-                              - CEO at Company
+                     <Flex css={{ gap: "0.5rem" }}>
+                        <Flex direction={"column"}>
+                           <Text h5 style={{ color: 'orange' }}>Our Mission</Text>
+                           <Text span>
+                              Empowering businesses through innovative solutions and exceptional talent, Coral Consulting Services is committed to delivering top-notch staff augmentation, professional services, software development, and application lifecycle support. We strive to be the trusted partner that enables our clients to achieve their goals, drive growth, and stay ahead in a rapidly evolving digital landscape.
                            </Text>
                         </Flex>
                      </Flex>
                   </Card.Body>
                </Card>
 
-               <Card>
+               <Card css={{ width: "100%", maxWidth: "500px" }}>
                   <Card.Body>
-                     <Flex
-                        css={{
-                           py: '$10',
-                           gap: '$5',
-                        }}
-                     >
-                        <QuotesIcon />
-                        <Flex direction={'column'} css={{gap: '0.5rem'}}>
-                           <Text
-                              span
-                              css={{
-                                 maxWidth: '400px',
-                                 color: '$accents8',
-                              }}
-                           >
-                              Lorem ipsum dolor sit amet, consectetur adipiscing
-                              elit. Sed condimentum, nisl ut aliquam lacinia,
-                              nisl nisl aliquet nisl,
-                           </Text>
-                           <Text
-                              span
-                              weight={'bold'}
-                              css={{
-                                 maxWidth: '400px',
-                                 display: 'contents',
-                                 color: '$accents9',
-                              }}
-                           >
-                              Jennifer Ford{' '}
-                           </Text>
-                           <Text
-                              span
-                              css={{
-                                 display: 'contents',
-                                 color: '$accents8',
-                              }}
-                           >
-                              - CEO at Company
-                           </Text>
-                        </Flex>
-                     </Flex>
-                  </Card.Body>
-               </Card>
-
-               <Card>
-                  <Card.Body>
-                     <Flex
-                        css={{
-                           py: '$10',
-                           gap: '$5',
-                        }}
-                     >
-                        <QuotesIcon />
-                        <Flex direction={'column'} css={{gap: '0.5rem'}}>
-                           <Text
-                              span
-                              css={{
-                                 maxWidth: '400px',
-                                 color: '$accents8',
-                              }}
-                           >
-                              Lorem ipsum dolor sit amet, consectetur adipiscing
-                              elit. Sed condimentum, nisl ut aliquam lacinia,
-                              nisl nisl aliquet nisl,
-                           </Text>
-                           <Text
-                              span
-                              weight={'bold'}
-                              css={{
-                                 maxWidth: '400px',
-                                 display: 'contents',
-                                 color: '$accents9',
-                              }}
-                           >
-                              Jennifer Ford{' '}
-                           </Text>
-                           <Text
-                              span
-                              css={{
-                                 display: 'contents',
-                                 color: '$accents8',
-                              }}
-                           >
-                              - CEO at Company
+                     <Flex css={{ gap: "0.5rem" }}>
+                        <Flex direction={"column"}>
+                           <Text h5 style={{ color: 'orange' }}>Our Vision</Text>
+                           <Text span>
+                              To be the leading provider of technology solutions globally, recognized for our unwavering commitment to excellence, client satisfaction, and transformative impact. We aim to be the go-to partner for businesses seeking cutting-edge expertise, exceptional talent, and tailored solutions that drive innovation, productivity, and success.
                            </Text>
                         </Flex>
                      </Flex>
                   </Card.Body>
                </Card>
             </Flex>
+
             <Flex
                align={'start'}
                direction={'column'}
                css={{
                   'alignItems': 'center',
+                  flex: 1,
                   '@sm': {
                      alignItems: 'start',
                   },
                }}
             >
-               <Text span css={{color: '$blue600'}}>
-                  Awesome Feature
-               </Text>
-               <Text h3>Testimonials</Text>
-               <Text span css={{color: '$accents8', maxW: '600px', pb: '$8'}}>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                  condimentum, nisl ut aliquam lacinia, nisl nisl aliquet nisl,
-                  nec tincidunt nisl lorem eu nunc. Sed euismod, nisl ut aliquam
-                  lacinia,
-               </Text>
-               <Button>Read case studies</Button>
+               <Box
+                  css={{
+                     '& img': {
+                        width: '100%', // Use 100% to make it responsive
+                        maxWidth: '500px',
+                        objectFit: 'contain',
+                        borderRadius: '12px'
+                     },
+                  }}
+               >
+                  <img src="mission.jpg" alt="Mission" />
+               </Box>
             </Flex>
          </Flex>
 
          <Divider
-            css={{position: 'absolute', inset: '0p', left: '0', mt: '$5'}}
+            css={{ position: 'absolute', inset: '0p', left: '0', mt: '$5' }}
          />
       </>
    );

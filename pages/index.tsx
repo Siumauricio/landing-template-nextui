@@ -13,22 +13,19 @@ import {Plans} from '../components/plans';
 import {Faq} from '../components/faq';
 import {Trial} from '../components/trial';
 import {Footer} from '../components/footer';
+import { BannerHome } from '../components/bannerHome';
 
 const Home: NextPage = () => {
    return (
       <Layout>
          <Nav />
-         <Box as="main">
+         <Box as="main"> 
+            
             <Hero />
-            <Trusted />
-            <Features1 />
-            <Features2 />
-            <Features3 />
-            <Testimonials />
             <Statistics />
-            <Plans />
-            <Faq />
-            <Trial />
+            <Features2 />
+          
+            <Trial /> 
             <Footer />
          </Box>
       </Layout>

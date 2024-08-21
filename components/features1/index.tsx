@@ -27,21 +27,18 @@ export const Features1 = () => {
             }}
          >
             <Flex direction="column">
-               <Text span css={{color: '$blue600'}}>
-                  Awesome Feature
-               </Text>
-               <Text h3>Your title here</Text>
+              
+               <Text h2 style={{color: 'orange'}}>Empowering Your Team with us</Text>
                <Text
                   span
                   css={{
                      maxWidth: '400px',
-                     color: '$accents8',
+                     
                   }}
                >
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                  condimentum, nisl ut aliquam lacinia, nisl nisl aliquet nisl,
-                  nec tincidunt nisl lorem eu nunc. Sed euismod, nisl ut aliquam
-                  lacinia,
+                 At Coral Consulting Services, we believe that the power of technology can transform businesses and drive them towards success. As a leading staff augmenting company, we specialize in providing top-notch IT professionals to help organizations reach their full potential.
+
+
                </Text>
 
                <Flex
@@ -50,21 +47,19 @@ export const Features1 = () => {
                      gap: '$5',
                   }}
                >
-                  <BoxIcon />
+                 
                   <Flex direction={'column'}>
-                     <Text h4 weight={'medium'}>
-                        Your title here
+                     <Text h4 weight={'bold'} style={{color: 'orange'}}>
+                       Understanding
                      </Text>
                      <Text
                         span
                         css={{
                            maxWidth: '400px',
-                           color: '$accents8',
+                          
                         }}
                      >
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Sed condimentum, nisl ut aliquam lacinia, nisl nisl
-                        aliquet nisl,
+                       What sets us apart is our commitment to understanding your business needs and goals. We take the time to listen and collaborate with you, allowing us to provide tailored solutions that align with your organization’s vision. Whether you need short-term assistance for a specific project or long-term support for ongoing operations, we have the right talent to meet your needs.
                      </Text>
                   </Flex>
                </Flex>
@@ -74,21 +69,19 @@ export const Features1 = () => {
                      gap: '$5',
                   }}
                >
-                  <BoxIcon />
+                 
                   <Flex direction={'column'}>
-                     <Text h4 weight={'medium'}>
-                        Your title here
+                     <Text h4 weight={'bold'} style={{color: 'orange'}}>
+                        Flexibility
                      </Text>
                      <Text
                         span
                         css={{
                            maxWidth: '400px',
-                           color: '$accents8',
+                          
                         }}
                      >
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Sed condimentum, nisl ut aliquam lacinia, nisl nisl
-                        aliquet nisl,
+                      We pride ourselves on our ability to provide seamless integration of our staff into your existing team. Our professionals are not just skilled in their respective domains, but they also possess excellent communication and collaboration skills. They will seamlessly blend with your team, ensuring a smooth workflow and maximizing productivity.
                      </Text>
                   </Flex>
                </Flex>
@@ -98,27 +91,23 @@ export const Features1 = () => {
                      gap: '$5',
                   }}
                >
-                  <BoxIcon />
-                  <Flex direction={'column'}>
-                     <Text h4 weight={'medium'}>
-                        Your title here
-                     </Text>
-                     <Text
-                        span
-                        css={{
-                           maxWidth: '400px',
-                           color: '$accents8',
-                        }}
-                     >
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Sed condimentum, nisl ut aliquam lacinia, nisl nisl
-                        aliquet nisl,
-                     </Text>
-                  </Flex>
+                
+                 
                </Flex>
             </Flex>
             <Flex align={'center'}>
-               <FeatureIcon />
+            <Box
+               css={{
+                  '& img': {
+                     width: '700px',
+                     objectFit: 'contain', 
+                     borderRadius: '12px'
+                  },
+               }} 
+               
+            >
+               <img src="understand.jpg" />
+            </Box>
             </Flex>
          </Flex>
          <Divider

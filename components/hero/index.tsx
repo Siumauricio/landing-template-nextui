@@ -9,7 +9,7 @@ export const Hero = () => {
       <>
          <Flex
             css={{
-               'gap': '$3',
+               'gap': '$15',
                'px': '$6',
                'flexDirection': 'column',
                'alignContent': 'center',
@@ -41,26 +41,29 @@ export const Hero = () => {
                      h1
                      css={{
                         display: 'inline',
-                     }}
+                     }} 
+                     style={{color: 'orange'}}
                   >
-                     The modern landing page{' '}
+               Coral Consulting Services
                   </Text>
+                  <br/>
                   <Text
-                     h1
+                     h2
                      css={{
                         display: 'inline',
                      }}
                   >
-                     for{' '}
+             A modern way to transform your organization with {" "}
                   </Text>
+                
                   <Text
-                     h1
+                     h2
                      css={{
                         display: 'inline',
                      }}
-                     color="primary"
+                     color="orange"
                   >
-                     React developers
+                   Elite IT Talent
                   </Text>
                </Box>
 
@@ -72,65 +75,23 @@ export const Hero = () => {
                   size={'$lg'}
                   span
                >
-                  The easiest way to build React Landing page in seconds. Save
-                  time and focus on your project.
+                 At CCS, we are not just in the business of IT staffing; we are in the business of transforming your organization with top-tier IT professionals who drive innovation and success.
                </Text>
 
-               <Flex
-                  css={{
-                     gap: '$8',
-                     pt: '$4',
-                  }}
-                  wrap={'wrap'}
-               >
-                  <Input placeholder="Enter your email address" size="lg" />
-                  <Button>Start Free Trial</Button>
-               </Flex>
-               <Flex
-                  wrap={'wrap'}
-                  css={{
-                     'gap': '$8',
-                     'py': '$7',
-                     '@sm': {
-                        py: '$4',
-                     },
-                  }}
-               >
-                  <Flex
-                     css={{
-                        color: '$accents7',
-                        alignItems: 'center',
-                     }}
-                  >
-                     <CheckIcon /> No credit card required.
-                  </Flex>
-                  <Flex
-                     css={{
-                        color: '$accents7',
-                        alignItems: 'center',
-                     }}
-                  >
-                     <CheckIcon /> 14-day free trial.
-                  </Flex>
-                  <Flex
-                     css={{
-                        color: '$accents7',
-                        alignItems: 'center',
-                     }}
-                  >
-                     <CheckIcon /> Cancel anytime.
-                  </Flex>
-               </Flex>
+              
+               
             </Box>
             <Box
                css={{
                   '& img': {
-                     width: '775px',
-                     objectFit: 'contain',
+                     width: '700px',
+                     objectFit: 'contain', 
+                     borderRadius: '12px'
                   },
-               }}
+               }} 
+               
             >
-               <img src="mock.png" />
+               <img src="mock.jpg" />
             </Box>
          </Flex>
          <Divider

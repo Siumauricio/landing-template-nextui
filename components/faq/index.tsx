@@ -16,22 +16,9 @@ export const Faq = () => {
             direction={'column'}
          >
             <Flex align={'center'} direction={'column'}>
-               <Text span css={{color: '$blue600'}}>
-                  FAQ
-               </Text>
-               <Text h2>You Have Questions?</Text>
-               <Text
-                  span
-                  css={{
-                     maxWidth: '700px',
-                     color: '$accents8',
-                     textAlign: 'center',
-                  }}
-               >
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                  condimentum, nisl ut aliquam lacinia, nisl nisl aliquet
-                  aliquet
-               </Text>
+               
+               <Text h2 style={{color: 'orange'}}>FAQ - About us</Text>
+             
             </Flex>
 
             <Flex
@@ -44,143 +31,52 @@ export const Faq = () => {
                direction={'column'}
             >
                <Flex css={{gap: '$5'}} justify={'center'}>
-                  <BoxIcon />
+                
                   <Flex direction={'column'} css={{gap: '$3'}}>
-                     <Text h3>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing
-                        elit?
+                     <Text h3 style={{color: 'orange'}}>
+                     What industries does the company serve?
                      </Text>
                      <Text
                         span
-                        css={{
-                           color: '$accents8',
-                        }}
+                      
                      >
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Sed condimentum, nisl ut aliquam lacinia, nisl nisl
-                        aliquet aliquet Lorem ipsum dolor sit amet, consectetur
-                        adipiscing elit. Sed condimentum, nisl ut aliquam
-                        lacinia, nisl nisl aliquet aliquet Lorem ipsum dolor sit
-                        amet, consectetur adipiscing elit. Sed condimentum, nisl
-                        ut aliquam lacinia, nisl nisl aliquet aliquet Lorem
-                        ipsum dolor sit amet, aliquam lacinia, nisl nisl aliquet
-                        aliquet
+                       Coral Consulting Services serves a diverse range of industries, providing comprehensive IT services, software development, professional training, outsourcing, and support solutions. Their expertise spans various sectors, including but not limited to finance, healthcare, technology, manufacturing, and more. By offering a broad spectrum of services, Warrior Tech Solutions aims to cater to the unique needs of businesses across different industries, helping them optimize their IT infrastructure, enhance software capabilities, and empower their workforce through training and support services.
                      </Text>
-                     <Text
-                        span
-                        css={{
-                           color: '$accents8',
-                        }}
-                     >
-                        elit. Sed condimentum, nisl ut aliquam lacinia, nisl
-                        nisl aliquet aliquet elit. Sed condimentum, nisl ut
-                        aliquam lacinia, nisl nisl aliquet aliquet elit. Sed
-                        condimentum, nisl ut aliquam lacinia, nisl nisl aliquet
-                        aliquet elit. Sed condimentum, nisl ut aliquam lacinia,
-                        nisl nisl aliquet aliquet
-                     </Text>
+                    
                   </Flex>
                </Flex>
 
                <Flex css={{gap: '$5'}} justify={'center'}>
-                  <BoxIcon />
+                  
                   <Flex direction={'column'} css={{gap: '$3'}}>
-                     <Text h3>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing
-                        elit?
+                     <Text h3 style={{color: 'orange'}}>
+                     Can you provide an overview of the company&rsquo;s mission and values?
                      </Text>
                      <Text
                         span
-                        css={{
-                           color: '$accents8',
-                        }}
+                        
                      >
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Sed condimentum, nisl ut aliquam lacinia, nisl nisl
-                        aliquet aliquet Lorem ipsum dolor sit amet, consectetur
-                        adipiscing adipiscing elit. Sed condimentum, nisl ut
-                        aliquam lacinia, nisl nisl aliquet aliquet Lorem ipsum
-                        dolor sit amet, consectetur adipiscing elit. Sed
-                        condimentum, nisl ut aliquam lacinia, nisl nisl aliquet
-                        aliquet
+                      Mission may revolve around delivering high-quality, innovative solutions to clients, fostering continuous learning and development through professional training, ensuring client satisfaction through reliable support services, and promoting excellence in software development. Values may emphasize integrity, collaboration, customer-centricity, and a commitment to staying at the forefront of technological advancements to provide cutting-edge solutions to their clients.
                      </Text>
-                     <Text
-                        span
-                        css={{
-                           color: '$accents8',
-                        }}
-                     >
-                        elit. Sed condimentum, nisl ut aliquam lacinia, nisl
-                        nisl aliquet aliquet elit. Sed condimentum, nisl ut
-                        aliquam lacinia, nisl nisl aliquet aliquet elit. Sed
-                        condimentum, aliquet
-                     </Text>
+                     
                   </Flex>
                </Flex>
 
-               <Flex css={{gap: '$5'}} justify={'center'}>
-                  <BoxIcon />
-                  <Flex direction={'column'} css={{gap: '$3'}}>
-                     <Text h3>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing
-                        elit?
-                     </Text>
-                     <Text
-                        span
-                        css={{
-                           color: '$accents8',
-                        }}
-                     >
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Sed condimentum, nisl ut aliquam lacinia, nisl nisl
-                        aliquet
-                     </Text>
-                     <Text
-                        span
-                        css={{
-                           color: '$accents8',
-                        }}
-                     >
-                        elit. Sed condimentum, nisl ut aliquam lacinia, nisl
-                        nisl aliquet aliquet elit. Sed condimentum, nisl ut
-                        aliquam lacinia, nisl nisl aliquet aliquet elit. Sed
-                        condimentum, Sed condimentum, nisl ut aliquam lacinia,
-                        nisl nisl aliquet aliquet
-                     </Text>
-                  </Flex>
-               </Flex>
+               
 
                <Flex css={{gap: '$5'}} justify={'center'}>
-                  <BoxIcon />
+                
                   <Flex direction={'column'} css={{gap: '$3'}}>
-                     <Text h3>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing
-                        elit?
+                     <Text h3 style={{color: 'orange'}}> 
+                     What is the company&rsquo;s commitment to customer satisfaction?
                      </Text>
                      <Text
                         span
-                        css={{
-                           color: '$accents8',
-                        }}
+                       
                      >
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Sed condimentum, nisl ut aliquam lacinia, nisl nisl
-                        aliquet aliquet Lorem ipsum dolor sit amet, consectetur
-                        adipiscing
+                      Our commitment to customer satisfaction is paramount. We strive to deliver excellence in IT services, software development, training, outsourcing, and support. By prioritizing client needs, maintaining open communication, and ensuring the highest quality in all our offerings, we aim to exceed expectations. Our customer-centric approach is geared towards building lasting partnerships, where client success and satisfaction are at the forefront of our business ethos.
                      </Text>
-                     <Text
-                        span
-                        css={{
-                           color: '$accents8',
-                        }}
-                     >
-                        elit. Sed condimentum, nisl ut aliquam lacinia, nisl
-                        nisl aliquet aliquet elit. Sed condimentum, nisl ut
-                        aliquam lacinia, nisl nisl aliquet aliquet elit. Sed
-                        condimentum, nisl ut aliquam lacinia, nisl nisl aliquet
-                        aliquet elit. Sed condimentum, nisl ut aliquam lacinia,
-                        nisl nisl aliquet aliquet
-                     </Text>
+                    
                   </Flex>
                </Flex>
             </Flex>

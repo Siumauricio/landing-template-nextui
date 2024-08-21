@@ -17,21 +17,22 @@ export const Statistics = () => {
                <Text
                   h3
                   css={{
-                     textAlign: 'center',
-                  }}
+                     textAlign: 'center', 
+
+                  }} 
+                  style={{display: 'flex', justifyContent: 'center', alignItems: 'center', gap: 20}}
                >
-                  Over 8000+ projects completed
+                  <Text h1 style={{color: 'orange'}}>10,000+ </Text> Happy Customers
                </Text>
                <Text
-                  span
+                  span 
+                  h4
                   css={{
                      maxWidth: '800px',
                      textAlign: 'center',
                   }}
                >
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Iusto provident omnis deleniti temporibus pariatur corporis
-                  aperiam
+                we strive to make exceptional technology better. We help to ensure complete satisfaction by providing complete solutions to accompany our software requirements, which helps for future growth and strong reference sources
                </Text>
             </Flex>
             <Flex
@@ -47,35 +48,36 @@ export const Statistics = () => {
                }}
             >
                <Flex direction={'column'}>
-                  <Text h2 css={{color: '$blue600'}}>
+                  <Text h1 css={{color: 'orange'}}>
                      $500K+
                   </Text>
                   <Text span css={{textAlign: 'center'}} weight={'medium'}>
                      Revenue
                   </Text>
                </Flex>
+              
                <Flex direction={'column'}>
-                  <Text h2 css={{color: '$blue600'}}>
+                  <Text h1 css={{color: 'orange'}}>
+                     150+
+                  </Text>
+                  <Text span css={{textAlign: 'center'}} weight={'medium'}>
+                     Professionals
+                  </Text>
+               </Flex>
+               <Flex direction={'column'}>
+                  <Text h1 css={{color: 'orange'}}>
+                     15+
+                  </Text>
+                  <Text span css={{textAlign: 'center'}} weight={'medium'}>
+                     Teams
+                  </Text>
+               </Flex> 
+               <Flex direction={'column'}>
+                  <Text h1 css={{color: 'orange'}}>
                      10+
                   </Text>
                   <Text span css={{textAlign: 'center'}} weight={'medium'}>
                      Products
-                  </Text>
-               </Flex>
-               <Flex direction={'column'}>
-                  <Text h2 css={{color: '$blue600'}}>
-                     $150+
-                  </Text>
-                  <Text span css={{textAlign: 'center'}} weight={'medium'}>
-                     Components
-                  </Text>
-               </Flex>
-               <Flex direction={'column'}>
-                  <Text h2 css={{color: '$blue600'}}>
-                     10+
-                  </Text>
-                  <Text span css={{textAlign: 'center'}} weight={'medium'}>
-                     Employees
                   </Text>
                </Flex>
             </Flex>
